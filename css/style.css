@@ -1,0 +1,55 @@
+
+
+
+
+.top_bar{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0px;
+    padding: 0px;
+
+}
+#logo1{
+    height: 75px;
+    
+}
+#title{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.topbar>a{
+    margin: 0px;
+    padding:0px;
+    color: blueviolet;
+}
+.information{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 10px;
+}
+#art_1{
+    height: 600px;
+    width: 200px;
+}
+#burger{
+    height: 175px;
+
+}
+#art_2{
+    height: 600px;
+    width:200px
+}
+#fries{
+    height:175px;
+}
+#art_3{
+    height: 600px;
+    width: 200px;
+
+}
+#onion{
+    height: 175px;
+}
+
+
