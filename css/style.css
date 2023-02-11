@@ -1,5 +1,21 @@
 
+@keyframes burger_size{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        
+        width: 100px;
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translate(0px);
+    }
 
+
+}
 
 
 .top_bar{
@@ -36,12 +52,20 @@
     height: 175px;
 
 }
+#burger:active{
+    transform: scale(6.0);
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+}
+
 #art_2{
     height: 600px;
     width:200px
 }
 #fries{
     height:175px;
+}#fries:hover{
+    transform:scale(2.0) ;
 }
 #art_3{
     height: 600px;
@@ -50,6 +74,9 @@
 }
 #onion{
     height: 175px;
+}
+#onion:hover{
+    transform: translateX(30px);
 }
 
 
